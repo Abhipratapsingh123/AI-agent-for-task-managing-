@@ -44,15 +44,12 @@ if st.sidebar.button("🗑️ Delete Chat"):
     st.session_state.initialized = False
     st.rerun() 
 
-st.sidebar.markdown("---")
-st.sidebar.info("Use the main chat to create or update tasks dynamically!")
-
 
 # --- Chat Interface ---
 st.subheader("💬 Chat Window")
 
 # 1. READ ALL MESSAGES FROM DB FOR DISPLAY
-all_messages = db.get_messages(conv_id) 
+all_messages = db.get_messages(conv_id)
 
 # Display chat messages
 for msg in all_messages:
