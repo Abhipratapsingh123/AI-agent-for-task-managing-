@@ -1,0 +1,8 @@
+streamlit
+langchain==0.3.27
+langchain-core==0.3.75
+langchain-community==0.3.29
+langchain-google-genai==2.1.10
+requests
+python-dotenv
+
