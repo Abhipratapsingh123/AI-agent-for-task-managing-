@@ -8,7 +8,7 @@ load_dotenv()
 # Importing tools
 from tools import add_task_tool, update_task_tool, list_tasks_tool
 
-
+  
 def get_agent():
     
     llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")

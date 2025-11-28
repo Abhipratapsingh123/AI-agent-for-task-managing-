@@ -53,7 +53,7 @@ all_messages = db.get_messages(conv_id)
 
 # Display chat messages
 for msg in all_messages:
-    if msg["sender"] == "You":
+    if msg["sender"] == "Employee": 
         st.chat_message("user").write(msg["content"])
     elif msg["sender"] == "Employer":
         st.chat_message("user").write(f" Employer: {msg['content']}")
@@ -61,7 +61,7 @@ for msg in all_messages:
         st.chat_message("assistant").write(f" Agent: {msg['content']}")
 
 # --- Input Area ---
-current_role = st.selectbox("I am speaking as:", ["You", "Employer"])
+current_role = st.selectbox("I am speaking as:", ["Employee", "Employer"])
 user_input = st.chat_input(f"Send a message as {current_role}")
 
 if user_input:

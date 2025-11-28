@@ -84,6 +84,7 @@ def add_task(conv_id: str, title: str, assigned_to: str, status="OPEN", due_date
     conn.commit()
     conn.close()
 
+
 # updating the task
 
 
