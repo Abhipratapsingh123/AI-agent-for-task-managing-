@@ -1,9 +1,22 @@
+# AI-Powered Conversational Task Manager
+![Home Screen](assets/img1.png)  
+![Chat Example](assets/Img2.png) 
+![Chat Example](assets/img4.png) 
+![Chat Example](assets/img5.png)
+![Chat Example](assets/img6.png)
+![Chat Example](assets/img7.png)
+
+This is an AI-driven task management assistant built using LangChain, Python, and SQLite.
+It enables users to manage tasks through natural language conversations, acting as a smart productivity layer that understands instructions, tracks progress, and maintains conversation history.
+
 ##  Features
-- Add new tasks with title, assignee, and due date.  
-- Update task status (e.g., OPEN, DONE, INPR(In progress)).  
-- List all tasks in a conversation.  
-- Delete entire conversations along with their tasks & messages.  
-- Simple chat interface where the assistant understands natural language commands.
+- **Conversational Task Creation** – Add tasks with title, assignee, and due date using plain English.
+- **Task Status Management** – Update task states such as OPEN, INPR (In Progress), DONE seamlessly.
+- **Task Listing via Chat** – Retrieve all tasks within a conversation context.
+- **Conversation Lifecycle Control** – Delete entire conversations along with associated tasks and messages.
+- **Context-Aware Assistant**– Understands natural language commands and maps them to task operations.
+- **Persistent Memory** – Stores tasks and chat history for continuity across sessions.
+- **Modern Chat UI** – built with Streamlit’s `st.chat_message`, avatars, and expanders.
 
 ---
 
