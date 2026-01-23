@@ -1,10 +1,8 @@
 # AI-Powered Conversational Task Manager
 ![Home Screen](assets/img1.png)  
 ![Chat Example](assets/Img2.png) 
-![Chat Example](assets/img4.png) 
-![Chat Example](assets/img5.png)
-![Chat Example](assets/img6.png)
-![Chat Example](assets/img7.png)
+![Chat Example](assets/img3.png) 
+![Chat Example](assets/img4.png)
 
 This is an AI-driven task management assistant built using LangChain, Python, and SQLite.
 It enables users to manage tasks through natural language conversations, acting as a smart productivity layer that understands instructions, tracks progress, and maintains conversation history.
